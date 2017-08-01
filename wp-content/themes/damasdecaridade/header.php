@@ -1,6 +1,6 @@
 <html lang="pt-BR">
 <head>
-<?php wp_head(); ?>
+
 <meta http-equiv="cache-control" content="max-age=0" />
 <meta http-equiv="cache-control" content="no-cache" />
 <meta http-equiv="expires" content="0" />
@@ -9,21 +9,21 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width" />
 <link rel="profile" href="//gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" href="css/main.css" /> 
-<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/main.css" /> 
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/reset.css" />
 <title>Associação das Damas de Caridade de Florianópolis</title>
 <meta name="generator" content="Andrei João Neves" />
 
-<link rel="stylesheet" type="text/css" href="vendor/slick/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="vendor/slick/slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/vendor/slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/vendor/slick/slick/slick-theme.css"/>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="vendor/slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/vendor/slick/slick/slick.min.js"></script>
 
 
-<script type="text/javascript" src="js/core.js"></script>
-
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/core.js"></script>
+<?php wp_head(); ?>
 
 </head>
 <body> 
@@ -32,7 +32,7 @@
 			<div class="logo-social">
 			<a href="index.html">
 					<div class="logo">
-						<img src="img/logo-homensinho.gif" \>
+						<img src="<?php bloginfo('template_directory'); ?>/img/logo-homensinho.gif" \>
 						<span class="nome-adac">
 							<span>Associação das </span><br \>
 							<span class="maior">Damas de Caridade</span><br>
