@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+
+<?php 
+get_header(); 
+?>
 <section>
 		<div class="destaques">
 			<div style="background-image: url(<?php bloginfo('template_directory'); ?>/img/caridade.jpg);">

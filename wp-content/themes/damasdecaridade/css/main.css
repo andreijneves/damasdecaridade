@@ -1,14 +1,19 @@
-
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 body { 
 	width: 100%;  
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: Calibri;
-    background-image: url(../img/bggeral.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-family: Calibri !important;
+    background-image: url(../img/bggeral.jpg)!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
 }
 a {
 	color: #1C1C1C;
@@ -96,6 +101,7 @@ header {
 }
 .item-news a { color: #1c1c1c; }
 .menu a { color: #1c1c1c; }
+.area-blog-titulo a { color: #1c1c1c; }
 
 .item-news .tit {
 	font-weight: 700;
@@ -210,7 +216,7 @@ a {
 .nome-adac {
 	display: block;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 5px;
 	color:#1C1C1C;
 	font-size: 14px;
 	letter-spacing:4px;
@@ -314,9 +320,10 @@ footer a {
 }
 .texto-internas {
 	font-family: Calibri;
-	padding: 60px;
-	padding-top: 30px;
-	font-size: 16px;
-	color:#1C1C1C;
+	padding: 40px;
+	padding-top: 20px;
+	font-size: 16px !important;
+	color:#1C1C1C !important;
+	
 }
 

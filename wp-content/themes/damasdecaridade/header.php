@@ -30,7 +30,7 @@
 	<div class="wrapper"> 
 	<header>		
 			<div class="logo-social">
-			<a href="index.html">
+			<a href="<?php echo site_url(); ?>">
 					<div class="logo">
 						<img src="<?php bloginfo('template_directory'); ?>/img/logo-homensinho.gif" \>
 						<span class="nome-adac">

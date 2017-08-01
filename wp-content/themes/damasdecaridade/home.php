@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <section>
+	
 <!-- O loop -->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
 
@@ -12,10 +13,13 @@
 	</div>
 
 	<div class="texto-internas">
-			<?php the_content(); ?>
+		<?php the_content(); ?> 
 	</div>
 
 <?php endwhile; ?>
 <?php endif; ?>
-</section>	
+
+</section>
 <?php get_footer(); ?>
+
+	
