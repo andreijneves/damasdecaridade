@@ -23,7 +23,7 @@
 
 
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/core.js"></script>
-
+<?php wp_head(); ?>
 
 </head>
 <body> 
