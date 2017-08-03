@@ -21,5 +21,22 @@ Telefone: (48) 3025-2324</div>
 	</footer>
 
 	<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50b8f1d85a0429dd"></script> 
+
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+	$.noConflict();
+	// Code that uses other library's $ can follow here.
+	</script>
+	<script src="<?php bloginfo('template_directory'); ?>/vendor/fancybox/jquery.fancybox.min.js"></script>
+	<script type="text/javascript">
+		jQuery(".texto-internas a img").parent().addClass("fancybox");
+		jQuery(".fancybox").attr("data-fancybox", "group");
+		jQuery(".fancybox").fancybox({
+			toolbar  : false,
+			smallBtn : true,
+			loop: true
+		}); 
+	</script>
+
 </body>
 </html>

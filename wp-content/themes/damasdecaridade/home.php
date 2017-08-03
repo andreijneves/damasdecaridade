@@ -12,7 +12,7 @@
 		<a>
 	</div>
 
-	<div class="texto-internas">
+	<div class="texto-internas post">
 		<?php the_content(); ?> 
 	</div>
 

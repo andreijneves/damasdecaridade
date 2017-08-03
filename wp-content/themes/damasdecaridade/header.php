@@ -21,10 +21,11 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/vendor/slick/slick/slick.min.js"></script>
 
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/vendor/fancybox/jquery.fancybox.min.css">
 
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/core.js"></script>
-<?php wp_head(); ?>
 
+<?php wp_head(); ?>
 </head>
 <body> 
 	<div class="wrapper"> 
