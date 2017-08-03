@@ -1,14 +1,7 @@
 <footer>
 		<div class="footer-links">
 			<div class="footer-tit">ADAC</div>
-			<ul>
-				  <li><a href="internas.html">Quem Somos</a></li>
-				  <li><a href="internas.html">Como nos Ajudar</a></li>
-				  <li><a href="internas.html">Fotos</a></li>
-				  <li><a href="internas.html">Videos</a></li>
-				  <li><a href="internas.html">Blog</a></li>
-				  <li><a href="internas.html">Contato</a></li>
-			</ul>
+			<?php if (has_nav_menu('TOPO')) wp_page_menu( 'sort_column=menu_order' ); else wp_nav_menu(); ?>
 		</div>
 		<div class="footer-info">
 			<div class="footer-tit">Contamos com Você</div>Pedimos a sua a atenção a nossa questão, através da contribuição em mãos de equentosipam, alimento não perecível, roupas, brinquedos e doações em dinheiro, depósito em conta e vindo conhecer a associação presencialmente ou ainda pelo PagSeguro através do link abaixo.<br><br> <center><img src="<?php bloginfo('template_directory'); ?>/img/logo-pagseguro.png" width="100px" align="center"> </center>

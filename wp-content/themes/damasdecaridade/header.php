@@ -47,16 +47,6 @@
 					</div>
 			</div>		
 			<div class="menu">
-			<?php wp_page_menu( 'sort_column=menu_order' ); ?>
-			<!--
-				<ul>
-				  <li><a href="internas.html">Quem Somos</a></li>
-				  <li><a href="internas.html">Como nos Ajudar</a></li>
-				  <li><a href="internas.html">Fotos</a></li>
-				  <li><a href="internas.html">Videos</a></li>
-				  <li class="active"><a href="internas.html">Blog</a></li>
-				  <li><a href="internas.html">Contato</a></li>
-				</ul>
-				-->
+			<?php if (has_nav_menu('TOPO')) wp_page_menu( 'sort_column=menu_order' ); else wp_nav_menu(); ?>
 			</div>	
 	</header>

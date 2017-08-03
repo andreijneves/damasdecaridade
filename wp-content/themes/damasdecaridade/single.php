@@ -5,13 +5,13 @@
 
 	<div class="area-blog-titulo">
 		<img src="<?php bloginfo('template_directory'); ?>/img/bullet-internas.png"\>
-		<a href="<?php the_permalink(); ?>">
-			<?php the_title(); ?>
-				
+		<a href="<?php the_permalink(); ?>">		
+		<?php the_title(); ?>				
 		<a>
 	</div>
 
 	<div class="texto-internas">
+	
 			<?php the_content(); ?>
 	</div>
 
