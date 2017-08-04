@@ -131,15 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "wp-content/themes/damasdecaridade/header.php",
-			"settings":
-			{
-				"buffer_size": 2231,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -177,14 +168,19 @@
 		"/C/xampp/htdocs/damasdecaridade/wp-content",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade",
-		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/css"
+		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/em-construcao"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/em-construcao/index.php",
+		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/functions.php",
+		"/C/xampp/htdocs/damasdecaridade/.htaccess",
+		"/C/xampp/htdocs/damasdecaridade/.htpasswd",
+		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/index.php",
+		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/front-page.php",
+		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/header.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/css/main.css",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/js/core.js",
-		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/header.php",
-		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/front-page.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/footer.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/css/main-tam-1.css",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/css/main-tam-2.css",
@@ -195,8 +191,6 @@
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/home.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/plugins/contact-form-7/settings.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/template-fotos.php",
-		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/functions.php",
-		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/index.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/single.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/template-contato.php",
 		"/C/xampp/htdocs/damasdecaridade/wp-content/themes/damasdecaridade/page.php",
@@ -277,38 +271,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "wp-content/themes/damasdecaridade/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2231,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1770,
-								1770
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

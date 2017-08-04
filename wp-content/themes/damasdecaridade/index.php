@@ -1,4 +1,3 @@
-
 <?php 
 get_header(); 
 ?>
@@ -11,8 +10,8 @@ get_header();
 				foreach( $myposts as $post ) : setup_postdata($post); ?>
 				<div style="background-image: url(<?php the_post_thumbnail_url() ?>">
 					<div class="dtk-label">						
-						<span class="dtk-tit"><?php the_title() ?></span>
-						<?php the_excerpt() ?> 
+						<span class="dtk-tit"><?php the_title() ?></span><br />
+						<span class="dtk-text"><?php the_excerpt() ?></span> 
 					</div>
 				</div>
 				<?php endforeach; ?>
@@ -26,7 +25,7 @@ get_header();
 			<div class="news-container">
 				<?php
 				global $post;
-				$args = array('cat' => '-4' );
+				$args = array('cat' => '-4', 'numberposts' => 3 );
 				$myposts = get_posts( $args );
 				foreach( $myposts as $post ) : setup_postdata($post); ?>
 				<div class="item-news">
@@ -44,7 +43,16 @@ get_header();
 						
 		</div>
 		<div class="doe-aqui">
-				<img src="<?php bloginfo('template_directory'); ?>/img/bannerdoacoes.png" \>
+		<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post" target="_blank">
+<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+<input type="hidden" name="currency" value="BRL" />
+<input type="hidden" name="receiverEmail" value="adac.org@gmail.com" />
+<input type="hidden" name="iot" value="button" />
+<input type="image" src="<?php bloginfo('template_directory'); ?>/img/bannerdoacoes.png" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+				
 		</div>
 		<div class="area-galeria-titulo">
 			<img src="<?php bloginfo('template_directory'); ?>/img/icon-foto.jpg"\>
@@ -54,7 +62,7 @@ get_header();
 		<div class="area-gal">			
 				<?php
 				global $post;
-				$args = array('posts_per_page' => 4, 'cat' => '4' );
+				$args = array('numberposts' => 4, 'cat' => '4' );
 				$myposts = get_posts( $args );
 				foreach( $myposts as $post ) : setup_postdata($post); ?>
 						
@@ -69,5 +77,3 @@ get_header();
 
 </section>
 <?php get_footer(); ?>
-
-	
