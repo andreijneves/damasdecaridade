@@ -33,7 +33,7 @@
 			<div class="logo-social">
 			<a href="<?php echo site_url(); ?>">
 					<div class="logo">
-						<img src="<?php bloginfo('template_directory'); ?>/img/logo-homensinho.gif" \>
+						<img src="<?php bloginfo('template_directory'); ?>/img/logo-homensinho.jpg" \>
 						<span class="nome-adac">
 							<span>Associação das </span><br \>
 							<span class="maior">Damas de Caridade</span><br>
