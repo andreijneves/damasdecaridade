@@ -17,7 +17,7 @@
 		<div class="footer-map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.817211465531!2d-48.55077198494029!3d-27.59919608283691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527383ab27df7d9%3A0x810d28c768915549!2sR.+Tiradentes%2C+175+-+Centro%2C+Florian%C3%B3polis+-+SC%2C+88010-430!5e0!3m2!1spt-BR!2sbr!4v1501103341659" height="199" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
-		<div class="footer-endereco"><b>Associação das Damas de Caridade de Florianópolis</b><br>Endereço: R. Tiradentes, 175 - Centro<br>Florianópolis - SC, 88010-430<br>
+		<div class="footer-endereco"><b>Associação das Damas de Caridade de Florianópolis</b><br>Endereço: R. Tiradentes, 175, 1º piso - Centro<br>Florianópolis - SC, 88010-430<br>
 Telefone: (48) 3025-2324</div>
 	</footer>
 
@@ -30,14 +30,21 @@ Telefone: (48) 3025-2324</div>
 	</script>
 	<script src="<?php bloginfo('template_directory'); ?>/vendor/fancybox/jquery.fancybox.min.js"></script>
 	<script type="text/javascript">
+		jQuery(".texto-internas a img").parent().attr("data-caption",function() {
+			return jQuery(this).parent().parent().children("dd").text().trim();
+		}
+		); 
 		jQuery(".texto-internas a img").parent().addClass("fancybox");
 		jQuery(".fancybox").attr("data-fancybox", "group");
 		jQuery(".fancybox").fancybox({
-			toolbar  : false,
 			smallBtn : true,
+			 beforeShow : function(){
+		      this.title =  this.title + " - " + $(this.element).data("caption");
+		    },
 			loop: true
 		}); 
 	</script>
 
 </body>
 </html>
+

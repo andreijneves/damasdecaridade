@@ -5,6 +5,8 @@ $(document).ready(function() {
 		  //speed: 300,
 		  arrows:true,
 		  slidesToShow: 1,
+		  autoplay: true,
+  		  autoplaySpeed: 4000,
 		  //slidesToScroll: 4,
 		  responsive: [
 		    {

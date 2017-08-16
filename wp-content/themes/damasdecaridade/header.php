@@ -1,6 +1,15 @@
 <html lang="pt-BR">
 <head>
 
+<meta property="og:title" content="<?php the_title() ?>"/>
+<meta property="og:description" content="<?php the_excerpt() ?>"/>
+<meta property="og:url" content="<?php the_permalink() ?>"/>
+<meta property="og:image" itemprop="image primaryImageOfPage" content="<?php the_post_thumbnail_url() ?>"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="300" />
+<meta property="og:type" content="website"/>
+
 <meta http-equiv="cache-control" content="max-age=0" />
 <meta http-equiv="cache-control" content="no-cache" />
 <meta http-equiv="expires" content="0" />
@@ -11,7 +20,7 @@
 <link rel="profile" href="//gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/main.css" /> 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/reset.css" />
-<title>Associação das Damas de Caridade de Florianópolis</title>
+<title><?php the_title() ?> - Associação das Damas de Caridade de Florianópolis</title>
 <meta name="generator" content="Andrei João Neves" />
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/vendor/slick/slick/slick.css"/>
@@ -28,6 +37,14 @@
 <?php wp_head(); ?>
 </head>
 <body> 
+<!--<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10&appId=1814136728810914";
+  fjs.parentNode.insertBefore(js, fjs);>>
+}(document, 'script', 'facebook-jssdk'));</script>-->
 	<div class="wrapper"> 
 	<header>		
 			<div class="logo-social">
@@ -42,11 +59,11 @@
 					</div>
 					</a>
 					<div class="social-add">
-						<div class="addthis_sharing_toolbox"></div>
-						
+						<a href="https://www.facebook.com/damasdecaridadefpolis/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ic-face.png"  \></a>
+						<a href="https://plus.google.com/107145221895444500975"  target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/ic-google.png" \></a>
 					</div>
 			</div>		
-			<div class="menu">
+			<div class="menu"> 
 			<?php if (has_nav_menu('TOPO')) wp_page_menu( 'sort_column=menu_order' ); else wp_nav_menu(); ?>
 			</div>	
 	</header>
