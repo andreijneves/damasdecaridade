@@ -157,9 +157,10 @@ footer a {
 .blog-conteiner a  { color: #FFF; }
 .blog-conteiner div {
 	float: left;
+	display: block;
 	position: relative;	
 	width: 300px;
-	height: 180px;
+	height: 200px;
 	background-size:  cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -168,18 +169,18 @@ footer a {
 }
 
 .blog-label {
+	margin:0px !important;
+	position: absolute !important;
+	height:20px !important;    
+    bottom: 0px !important;
+    width: 94% !important;
 	font-family: Calibri;
 	padding: 10px;
 	font-size: 16px;
 	color:white;
-	background-color: black;
-	opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    height:78% !important;
-    position: absolute;
-    bottom: 0px !important;
-    width: 87.5% !important;
-    
+	background-color: #000;
+	
+       
 }
 .blog-tit {
 	position: relative;
@@ -369,7 +370,7 @@ footer a {
 }
 
 /* OUTROS */
-
+.texto-internas img {width: 100%;}
 a {
 	color: #1C1C1C;
 	text-decoration: none;
@@ -413,8 +414,7 @@ a {
 	margin:20px;
 }
 .texto-internas li { margin-bottom: 15px; }
-.texto-internas img {
-	max-width: 1200px !important ;
+.texto-internas img {	
 	height: auto;
 }
 .fb_iframe_widget { margin-left: 30px !important; }
@@ -453,7 +453,6 @@ body {
 	
 }
 .texto-internas img {
-	max-width: 900px !important ;
 	height: auto;
 }
 .doe-aqui {
@@ -498,7 +497,7 @@ body {
 	
 }
 .texto-internas img {
-	max-width: 700px !important ;
+	
 	height: auto;
 }
 .sidebar-1 {float: left; width: 100%;}
@@ -536,8 +535,7 @@ body {
 	background: white;
 }
 /* outros */
-.texto-internas img {
-	max-width: 260px !important ;
+.texto-internas img {	
 	height: auto;
 }
 .sidebar-1 {float: left; width: 100%;}

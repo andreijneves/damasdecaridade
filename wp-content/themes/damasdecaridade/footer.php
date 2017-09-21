@@ -4,7 +4,7 @@
 			<?php if (has_nav_menu('TOPO')) wp_page_menu( 'sort_column=menu_order' ); else wp_nav_menu(); ?>
 		</div>
 		<div class="footer-info">
-			<div class="footer-tit">Contamos com Você</div>Pedimos a sua a atenção a nossa questão, através da contribuição em mãos de equentosipam, alimento não perecível, roupas, brinquedos e doações em dinheiro, depósito em conta e vindo conhecer a associação presencialmente ou ainda pelo PagSeguro através do link abaixo.<br><br> <center><!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+			<div class="footer-tit">Contamos com Você</div>Pedimos sua atenção a nossa questão, através da contribuição em mãos de roupas, calçados, brinquedos, alimentos não perecíveis e doações em dinheiro (depósito em conta ou pelo PagSeguro). Sua ajuda será muito bem vinda e sua visita a nossa Associação também.<br><br> <center><!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
 <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post" target="_blank">
 <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
 <input type="hidden" name="currency" value="BRL" />
